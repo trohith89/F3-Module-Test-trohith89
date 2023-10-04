@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F3-MOD-TEST</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="master">
+
+      <div class="left-side">
+        <center><h1 style="font-size: 50px;">Post Office Application.</h1></center>
+        <p>This Application Allows you to extract information about the nearest Post Offices, based on your location.</p>
+        <img src="./messenger.png" alt="" />
+        <!-- <iframe src="https://maps.google.com/maps?q=35.856737, 10.606619&output=embed" width="360" height="270" frameborder="0" style="border:0"></iframe> -->
+      </div>
+      
+
+      <div class="right-side">
+        <h1>Your Current IP Address is <span id="yourIp"></span></h1>
+        <button onclick="ShowData()">Get Started</button>
+      </div>
+    </div>
+
+    <div class="post" id="post">
+      <div class="postOfficeDiv" id="postOfficeDiv">
+        
+      </div>
+
+      <div class="about" id="about">
+        <div class="info-div" id="info-div">
+          
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
